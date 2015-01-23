@@ -1,6 +1,7 @@
 body {
   	width: 100%;
-  	background: url('images/brickwall.png');
+  	background: url('images/retina_wood_@2X.png');
+  	font-family: 'Lobster', cursive;
 }
 
 #container {
@@ -11,7 +12,6 @@ body {
 .header {
   	text-align: center;
   	font-size: 50px;
-  	font-family: 'Lobster', cursive;
 }
 
 table {
@@ -19,7 +19,7 @@ table {
 }
 
 .row {
-	background: url('images/brickwall.png');
+	background: url('images/retina_wood_@2X.png');
 }
 
 .cell {
@@ -29,7 +29,7 @@ table {
 }
 
 .cell:hover {
-  background: url('images/brickwall.png');
+  background: url('images/retina_wood_@2X.png');
   opacity: .25;
 }
 

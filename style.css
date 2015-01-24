@@ -2,6 +2,7 @@ body {
   	width: 100%;
   	background: url('images/retina_wood_@2X.png');
   	font-family: 'Lobster', cursive;
+
 }
 
 #container {
@@ -12,6 +13,7 @@ body {
 .header {
   	text-align: center;
   	font-size: 50px;
+  	text-shadow: 3px 3px 3px #888888;
 }
 
 table {
@@ -19,17 +21,17 @@ table {
 }
 
 .row {
-	background: url('images/retina_wood_@2X.png');
+	background-color: white;
 }
 
 .cell {
 	border: 4px solid black;
 	width: 150px;
 	height: 150px;
+	box-shadow: 4px 4px 4px #888888;
 }
 
 .cell:hover {
-  background: url('images/retina_wood_@2X.png');
   opacity: .25;
 }
 

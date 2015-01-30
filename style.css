@@ -1,44 +1,105 @@
-body {
-  	width: 100%;
-  	background: url('images/retina_wood_@2X.png');
-  	font-family: 'Lobster', cursive;
-
+header {
+	text-align: 		center;
+	font-size: 			72px;
+	text-shadow:		3px 3px 3px #888888;
 }
 
-#container {
-	margin: 50px auto;
-	width: 800px;
-}	
+body {
+  width: 100%;
+	background: 		url('images/retina_wood_@2X.png');
+	font-family: 		'Lobster', cursive;
+}
 
-.header {
-  	text-align: center;
-  	font-size: 50px;
-  	text-shadow: 3px 3px 3px #888888;
+.container {
+	width: 					460px;
+	margin: 				auto;
+	font-size: 			50px;
+}
+
+#gameMessage {
+	text-align: 		center;
+	font-size: 			32px;
+	text-shadow:		3px 3px 3px #888888;
 }
 
 table {
-  margin: 0px auto;
+	border: 				2px solid black;
+	margin: 				2px 2px 2px 2px;
+	box-shadow: 		3px 3px 3px #888888;
+	font-size:			72px;
+	font-weight: 		bold;
+
 }
 
-.row {
-	background-color: white;
+#cell1 {
+	height: 				150px;
+	width:  				150px;
+	border: 				2px solid black;
+	text-align: 			center;
+}
+
+#cell2 {
+	height: 				150px;
+	width: 					150px;
+	border: 				2px solid black;
+	text-align: 			center;
+}
+
+#cell3 {
+	height: 				150px;
+	width: 					150px;
+	border: 				2px solid black;
+	text-align: 			center;
+}
+
+#cell4 {
+	height: 				150px;
+	width: 					150px;
+	border: 				2px solid black;
+	text-align: 			center;
+}
+
+#cell5 {
+	height: 				150px;
+	width: 					150px;
+	border: 				2px solid black;
+	text-align: 			center;
+}
+
+#cell6 {
+	height: 				150px;
+	width: 					150px;
+	border: 				2px solid black;
+	text-align: 			center;
+}
+
+#cell7 {
+	height: 				150px;
+	width: 					150px;
+	border: 				2px solid black;
+	text-align: 			center;
+}
+
+#cell8 {
+	height: 				150px;
+	width: 					150px;
+	border: 				2px solid black;
+	text-align:				center;
+}
+
+#cell9 {
+	height: 				150px;
+	width: 					150px;
+	border: 				2px solid black;
+	text-align: 			center;
 }
 
 .cell {
-	border: 4px solid black;
-	width: 150px;
-	height: 150px;
-	box-shadow: 4px 4px 4px #888888;
+	background-color: 		LightGray;
+	background-position: 	center;
+	box-shadow: 			2px 2px 2px #888888;
 }
 
 .cell:hover {
-  opacity: .25;
-}
-
-.red {
-  background-color: red;
-}
-
-.blue {
-  background-color: blue;
+	opacity: 				.55;
 }

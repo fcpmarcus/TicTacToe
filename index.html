@@ -1,36 +1,34 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Tic Tac Toe</title>
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script style="text/javascript" src="tttjs.js"></script>
 </head>
-<body>
-	<div id="container">
-		<h1 id="tictactoe" class="header" >Tic! Tac!! Toe!!!</h1>
-		<table>
-			<tbody>
-				<tr class="row">
-					<td class="cell" id="cellOne" onclick="changeColor">1</td>
-					<td class="cell" id="cellTwo" onclick="changeColor">2</td>
-					<td class="cell" id="cellThree" onclick="changeColor">3</td>
-				</tr>
-				<tr class="row">
-					<td class="cell" id="cellFour" onclick="changeColor">4</td>
-					<td class="cell" id="cellFive" onclick="changeColor">5</td>
-					<td class="cell" id="cellSix" onclick="changeColor">6</td>
-				</tr>
-				<tr class="row">
-					<td class="cell" id="cellSeven" onclick="changeColor">7</td>
-					<td class="cell" id="cellEight" onclick="changeColor">8</td>
-					<td class="cell" id="cellNine" onclick="changeColor">9</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	<script src="tttjs.js"></script>
-</body>
 
-<footer>
-	
-</footer>
+<header>Tic! Tac!! Toe!!!</header>
+<body onload="startGame()">
+
+	<div class="container">
+		<table>
+			<tr>
+				<td class="cell" id="cell1" onclick="playerMove(this)"></td>
+				<td class="cell" id="cell2" onclick="playerMove(this)"></td>
+				<td class="cell" id="cell3" onclick="playerMove(this)"></td>
+			</tr>
+			<tr>
+				<td class="cell" id="cell4" onclick="playerMove(this)"></td>
+				<td class="cell" id="cell5" onclick="playerMove(this)"></td>
+				<td class="cell" id="cell6" onclick="playerMove(this)"></td>
+			</tr>
+			<tr>
+				<td class="cell" id="cell7" onclick="playerMove(this)"></td>
+				<td class="cell" id="cell8" onclick="playerMove(this)"></td>
+				<td class="cell" id="cell9" onclick="playerMove(this)"></td>
+			</tr>
+		</table>
+		<div id="gameMessage"> Message will go here!</div>
+	</div>
+</body>
 </html>

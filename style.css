@@ -1,33 +1,33 @@
 header {
-	text-align: 		center;
-	font-size: 			72px;
-	text-shadow:		3px 3px 3px #888888;
+	text-align: 			center;
+	font-size: 				72px;
+	text-shadow:			3px 3px 3px #888888;
 }
 
 body {
   width: 100%;
-	background: 		url('images/retina_wood_@2X.png');
-	font-family: 		'Lobster', cursive;
+	background: 			url('images/retina_wood_@2X.png');
+	font-family: 			'Lobster', cursive;
 }
 
 .container {
 	width: 					460px;
 	margin: 				auto;
-	font-size: 			50px;
+	font-size: 				50px;
 }
 
 #gameMessage {
-	text-align: 		center;
-	font-size: 			32px;
-	text-shadow:		3px 3px 3px #888888;
+	text-align: 			center;
+	font-size: 				32px;
+	text-shadow:			3px 3px 3px #888888;
 }
 
 table {
 	border: 				2px solid black;
 	margin: 				2px 2px 2px 2px;
-	box-shadow: 		3px 3px 3px #888888;
-	font-size:			72px;
-	font-weight: 		bold;
+	box-shadow: 			3px 3px 3px #888888;
+	font-size:				72px;
+	font-weight: 			bold;
 
 }
 
@@ -98,6 +98,10 @@ table {
 	background-color: 		LightGray;
 	background-position: 	center;
 	box-shadow: 			2px 2px 2px #888888;
+	height: 				150px;
+	width: 					150px;
+	border: 				2px solid black;
+	text-align: 			center;
 }
 
 .cell:hover {
